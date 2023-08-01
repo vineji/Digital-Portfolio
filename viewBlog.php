@@ -9,7 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="reset.css" media="screen" />
-        <link rel="stylesheet" href="Miniproject1.css" media="screen" />
+        <link rel="stylesheet" href="style.css" media="screen" />
     </head>
     <body class="blogContainer">
         <nav style="padding-top: 0.3cm;" class="item1">
