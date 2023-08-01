@@ -44,10 +44,10 @@
           <div class="viewBlog1">  
                 <?php
                 // Connect to the database
-                $servername = "127.0.0.1";
-                $username = "root";
-                $password = "";
-                $dbname = "ecs417";
+                $servername = "*********";
+                $username = "****";
+                $password = "****";
+                $dbname = "*****";
 
                 $conn = new mysqli($servername, $username, $password, $dbname);
 
