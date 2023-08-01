@@ -1,5 +1,4 @@
 # Portfolio-Website
-
-I am not able to showcase all my files of my portfolio website for privacy reasons but here are some of the files to showcase my web development skills.
+This is my portfolio website to showcase my achievements and briefly describe myself and what I do when working on projects in the form of a blog.
 [Visit my portfolio website](vineji.com)
 
