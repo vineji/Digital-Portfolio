@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="reset.css" media="screen" />
         <link rel="stylesheet" href="style.css" media="screen" />
-        <link rel="stylesheet" href="flip.css" media="screen" />
+        <link rel="stylesheet" href="card_flip.css" media="screen" />
     </head>
     <body>
         <div class="container">
