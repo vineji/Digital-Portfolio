@@ -1,0 +1,200 @@
+
+  
+  .card {
+    width: 9.5rem;
+    height: 8rem;
+    perspective: 1000px; 
+    font-size: 1.9rem;
+    color: rgb(16, 27, 46);
+    
+  }
+  .hover_p{
+    padding-top: 1rem;
+    font-family: 'Abel', sans-serif; ;
+    color: rgb(54, 73, 109);
+    font-size: 1.7rem;
+  }
+  .hover_phone{
+    display: none;
+    visibility: hidden;
+    padding-top: 1rem;
+    font-family: 'Abel', sans-serif; ;
+    color: rgb(54, 73, 109);
+    font-size: 1.7rem;
+  }
+
+  
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s; 
+    transform-style: preserve-3d; 
+
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg); 
+  }
+  .card:focus .card-inner {
+    transform: rotateY(180deg); 
+  }
+
+  
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+  }
+  .card-front-grade{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 3rem;
+    color: aliceblue;
+    font-family: 'Comfortaa', cursive;
+
+
+  }
+  
+  .card-front {
+    border: rgb(16, 27, 46) 0.3rem solid;
+    background-color: rgb(94, 136, 204);
+    border-radius: 3.5rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-back {
+    border: rgb(16, 27, 46) 0.3rem solid;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.5rem 1.5rem 1.5rem 1.5rem;
+    transform: rotateY(180deg); 
+  }
+
+  .card-A-Level{
+    width: 19rem;
+    height: 8rem;
+    perspective: 1000px;
+    font-size: 2rem;
+
+  }
+  
+  .card-A-Level:hover .card-inner {
+    transform: rotateY(180deg); 
+  }
+
+  .card-front-A-Level,
+  .card-back-A-Level {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; 
+  }
+  .card-front-A-Level {
+    border: rgb(16, 27, 46) 0.35rem solid;
+    background-color: rgb(94, 136, 204);
+    border-radius: 5rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .card-back-A-Level {
+    border: rgb(16, 27, 46) 0.35rem solid;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem 2rem 2rem 2rem;
+    transform: rotateY(180deg); 
+  }
+  @media (max-width: 1306px){
+    .hover_p{
+      padding-top: 2rem;
+      font-size: 2.3rem;
+    }
+  }
+
+  @media (max-width: 600px){
+    .card-A-Level{
+      width: 15rem;
+      font-size: 2.5rem;
+      
+    }
+    .card{
+      width: 15rem;
+      font-size: 2.5rem;
+      border-radius: 5rem 2rem 2rem 2rem;
+    }
+    .card-front-grade{
+      font-size: 1.8rem;
+      line-height: 1.2rem;
+    }
+    .hover_p{
+      padding-top: 2rem;
+      font-size: 2.3rem;
+    }
+
+  }
+  @media (max-width: 500px){
+    .card-A-Level{
+      width: 23rem;
+      height: 11rem;
+      font-size: 3.5rem;
+      border-radius: 5rem 2rem 2rem 2rem;
+    }
+    .card{
+      width: 23rem;
+      height: 11rem;
+
+      font-size: 3.3rem;
+      border-radius: 5rem 2rem 2rem 2rem;
+    }
+    .card-front-grade{
+      
+      font-size: 2.5rem;
+      line-height: 1.6rem;
+    }
+    .hover_p{
+      display: none;
+
+    }
+    .hover_phone{
+      display: inline-flex;
+      visibility: inherit;
+      padding-top: 2rem;
+      font-size: 3.2rem;
+      padding-left: 7rem;
+    }
+
+  }
+  @media (max-width: 482px){
+    .card-A-Level{
+      width: 20rem;
+      height: 11rem;
+      font-size: 3.5rem;
+      border-radius: 5rem 2rem 2rem 2rem;
+    }
+    .card{
+      width: 20rem;
+      height: 11rem;
+
+      font-size: 3.3rem;
+      border-radius: 5rem 2rem 2rem 2rem;
+    }
+    .card-front-grade{
+      
+      font-size: 2.5rem;
+      line-height: 1.6rem;
+    }
+
+
+  }
+  
