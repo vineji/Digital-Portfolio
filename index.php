@@ -1,6 +1,7 @@
 <html>
     <head>
-        <title>Vineji Sathananthan</title>
+        <title>Sathananthan Vineji</title>
+        <link rel="icon" href="SV.png" type="image/png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,31 +11,34 @@
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="reset.css" media="screen" />
         <link rel="stylesheet" href="style.css" media="screen" />
+        <link rel="stylesheet" href="flip.css" media="screen" />
     </head>
     <body>
         <div class="container">
             <header class="item1">
-                <nav>
+                <nav class="navbar">
                     <ul>
-                        <li style="padding-right: 1.8rem; padding-top: 1rem;"><a href="viewBlog.php" class="item12">View blogs</a></li>
-                        <li style="padding-right: 1.8rem; padding-top: 1rem;"><a class="item12" href="session.php">Add post</a></li>
+                        <li style="padding-right: 1.8rem; padding-top: 1rem;"><a href="*******" class="item12_view">View blogs</a></li>
+                        <li style="padding-right: 1.8rem; padding-top: 1rem;"><a class="item12_view" href="*********">Add post</a></li>
                         <li style="padding-right: 1.8rem; padding-top: 1rem;"><a href="#contact" class="item12">Contact</a></li>
                         <li style="padding-right: 1.8rem; padding-top: 1rem;"><a href="#home" class="item12">Home</a></li>
                     </ul>
                 </nav>
                 <div class="side_bar">
-                    <ul>
-                        <li><a href="https://github.com/vineji" target="_blank" ><img class="sidebar_image_github" src="git.svg"></a></li>
-                        <li><a href="https://www.linkedin.com/in/sathananthan-vineji-273401259/" target="_blank"><img class="sidebar_image_linkedin" src="linkedin.svg"></a></li>
-                        <li><a href="CV.pdf" target="_blank"><img class="sidebar_image_resume" src="resume.svg" ></a></li>
-                        <li><a href="#contact"><img class="sidebar_image_email"  src="email.svg"></a></li>
-                    </ul>
+                    <div class="side">
+                        <a href="********************" target="_blank" ><img class="sidebar_image_github" src="git.svg"></a>
+                        <a href="**********************" target="_blank"><img class="sidebar_image_linkedin" src="linkedin.svg"></a>
+                        <a href="CV.pdf" target="_blank"><img class="sidebar_image_resume" src="resume.svg" ></a>
+                        <a href="#contact"><img class="sidebar_image_email"  src="email.svg"></a>
+                    </div>
                 </div>
             </header>
             <div class="item2" style="padding-top: 250px;" id="home">
                 <figure>
                     <h0 class="item21">Hello, my name is</h0>
-                    <h1 class="item22">Vineji Sathananthan</h1>
+                    <div class="typing-animation">
+                        <h1 class="item22">Sathananthan Vineji</h1>
+                    </div>
                 </figure>
                 <figcaption class="item23">Undergraduate Computer Science student</figcaption>
                 <ul  class="item24">
@@ -45,80 +49,330 @@
                     <li style="padding: 0.9rem;"><a href="#project" class="item25">My projects</a></li>
                 </ul>
             </div>
-            <div id="about" class="move3"></div>
-            <div class="item3">
+            <div  class="move2" ></div>
+            <div class="item3" id="about">
                 <h2 class="item31" >About me</h2>
                 <div class="item32">
                     <h3 class="item33">Hello, I'm Vineji. Feel free to explore my website.</h3>
                     <article class="item34" >As a BSc Computer Science student at Queen Mary University of London, I am focusing on web development while cultivating a keen interest in machine learning, recognizing its importance in shaping our future. During my leisure time, I actively acquire diverse programming languages, skillfully utilizing them to develop and enhance my professional portfolio.</article>
                 </div>
             </div>
-            <div  class="move3"></div>
-            <div class="Econtainer" style="padding-top: 10rem;" id="education">
+            <div  class="move3" style ="padding-top:15rem;"></div>
+            <div class="Econtainer"  id="education">
                 <header>
                     <h1 class="E1">Education & Skills</h1>
+                    <p class="hover_p">// Hover over the subject to view the grade</p>
+                    <p class="hover_phone">// Hold on the subject to view the grade</p>
                 </header>
                 <div class="tableContainer" >
-                    <table>
+                    <table class="border_collapse">
                         <tr style="font-size: 1.5rem; color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
-                            <th class="box-grade">GCSE </th>
-                            <th class="box" style="border-radius: 3rem 1.5rem 0rem 0rem;">Math</th>
-                            <th class="box" style="border-radius: 3rem 1.5rem 0rem 0rem;">English Literature</th>
-                            <th class="box" style="border-radius: 3rem 1.5rem 0rem 0rem;">English <br> Language</th>
-                            <th class="box" style="border-radius: 3rem 1.5rem 0rem 0rem;">Biology</th>
-                            <th class="box" style="border-radius: 3rem 1.5rem 0rem 0rem;">Chemistry</th>
-                            <th class="box" style="border-radius: 3rem 1.5rem 0rem 0rem;">Physics</th>
-        
-                        </tr>
-                        <tr style="font-size: 1.5rem; color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
-                            <th class="box-grade">Grades</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">9</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">7</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">7</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">7</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">8</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">8</th>
+                            <th style="border-radius: 4rem 1.5rem 1.5rem 1.5rem;"> 
+                                <div class="card">
+                                    <div class="card-front-grade">
+                                        <p>GCSE<br><br> Grades</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <th style="border-radius: 4rem 1.5rem 1.5rem 1.5rem;"> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <p>Math</p>
+                                        </div>
+                                        <div class="card-back">
+                                            <p>9</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>English Language </p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>7</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>English Literature </p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>7</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>Biology</p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>7</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>Chemistry</p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>8</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>Physics</p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>8</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
                         </tr>
                         <tr style="font-size: 1.5rem;color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
                             <th></th>
-                            <th class="box1" style="border-radius: 3rem 1.5rem 0rem 0rem;">Computer Science</th>
-                            <th class="box1" style="border-radius: 3rem 1.5rem 0rem 0rem;">Geography</th>
-                            <th class="box1" style="border-radius: 3rem 1.5rem 0rem 0rem;">Art</th>
-                            <th class="box1" style="border-radius: 3rem 1.5rem 0rem 0rem;">French</th>
-                            <th class="box1" style="border-radius: 3rem 1.5rem 0rem 0rem;">Religious <br> Studies</th>
-                        </tr>
-                        <tr style="font-size: 1.5rem;color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
-                            <th></th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">7</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">7</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">8</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">6</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">7</th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>Computer Science</p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>7</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>Geography</p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>7</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>Art</p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>8</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>French</p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>6</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                    <div class="card-front">
+                                        <p>Religious Studies</p>
+                                    </div>
+                                    <div class="card-back">
+                                        <p>7</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
                         </tr>
                     </table>
-                    <table>
+                    <table class="border_collapse">
                         <tr style="font-size: 1.5rem; color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
-                            <th class="box-grade-A-level">A-Level</th>
-                            <th class="box" style="border-radius: 4rem 1.5rem 0rem 0rem;">Math</th>
-                            <th class="box" style="border-radius: 4rem 1.5rem 0rem 0rem;">Further Math</th>
-                            <th class="box" style="border-radius: 4rem 1.5rem 0rem 0rem;">Chemistry</th>
-                        </tr>
-                        <tr style="font-size: 1.5rem; color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
-                            <th class="box-grade-A-level">Grades</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">A*</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">A</th>
-                            <th class="box" style="border-radius: 0rem 0rem 1.5rem 1.5rem;">A</th>
+                            <th > 
+                                <div class="card">
+                                    <div class="card-front-grade">
+                                        <p>A-Level<br><br> Grades</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card-A-Level">
+                                    <div class="card-inner">
+                                    <div class="card-front-A-Level">
+                                        <p>Math</p>
+                                    </div>
+                                    <div class="card-back-A-Level">
+                                        <p>A*</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card-A-Level">
+                                    <div class="card-inner">
+                                    <div class="card-front-A-Level">
+                                        <p>Further Math</p>
+                                    </div>
+                                    <div class="card-back-A-Level">
+                                        <p>A</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card-A-Level">
+                                    <div class="card-inner">
+                                    <div class="card-front-A-Level">
+                                        <p>Chemistry</p>
+                                    </div>
+                                    <div class="card-back-A-Level">
+                                        <p>A</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>  
                         </tr>
                     </table>
-                    <table style="padding-left: 20rem;">
+                    <table style="padding-left: 20rem;" class="border_collapse">
                         <tr style="font-size: 1.5rem; color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
-                            <th class="box-grade" style="display: flex; justify-content: center;" >Skills</th>
-                            <th  class="box2"><img src="java2.png" class="image-box"></th>
-                            <th  class="box2" ><img src="python.png" class="image-box-python"></th>
-                            <th  class="box2"><img src="html1.png" class="image-box" style="padding-right: 1rem;"></th>
-                            <th  class="box2"><img src="css1.png" class="image-box" style="padding-right: 3rem;"></th>
-                            <th  class="box2" ><img src="php.png" class="image-box-php" style="padding-right: 2rem;"></th>
-                            <th  class="box2"><img src="sql.png" class="image-box"></th>
+                            <th style="border-radius: 4rem 1.5rem 1.5rem 1.5rem;"> 
+                                <div class="card">
+                                    <div class="card-front-grade">
+                                        <p>Skills</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <th  class="box2"><img src="java2.png" class="image-box-c"></th>
+                            <th  class="box2" ><img src="python.png" class="image-box-python-c"></th>
+                            <th  class="box2"><img src="html1.png" class="image-box-c" style="padding-right: 1rem;"></th>
+                            <th  class="box2"><img src="css1.png" class="image-box-c" style="padding-right: 3rem;"></th>
+                            <th  class="box2" ><img src="php.png" class="image-box-php-c" style="padding-right: 2rem;"></th>
+                            <th  class="box2"><img src="sql.png" class="image-box-c"></th>
+                        </tr>
+                    </table>
+                    <table class="invisible-table" >
+                        <tr style="font-size: 1.5rem; font-family: 'Abel', sans-serif; ">
+                            <th> 
+                                <div class="card">
+                                    <div class="card-front-grade">
+                                        <p>GCSE<br><br> Grades</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <th style="border-radius: 4rem 1.5rem 1.5rem 1.5rem;"> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <p>English Language</p>
+                                        </div>
+                                        <div class="card-back">
+                                            <p>7</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card">
+                                    <div class="card-inner">
+                                        <div class="card-front">
+                                            <p>Math</p>
+                                        </div>
+                                        <div class="card-back">
+                                            <p>9</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+                        </tr>
+                        <tr style="font-size: 1.5rem; color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
+                            <th > 
+                                <div class="card">
+                                    <div class="card-front-grade">
+                                        <p>A-Level<br><br> Grades</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card-A-Level">
+                                    <div class="card-inner">
+                                    <div class="card-front-A-Level">
+                                        <p>Math</p>
+                                    </div>
+                                    <div class="card-back-A-Level">
+                                        <p>A*</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card-A-Level">
+                                    <div class="card-inner">
+                                    <div class="card-front-A-Level">
+                                        <p>Further Math</p>
+                                    </div>
+                                    <div class="card-back-A-Level">
+                                        <p>A</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </th>
+                            <th> 
+                                <div class="card-A-Level">
+                                    <div class="card-inner">
+                                        <div class="card-front-A-Level">
+                                            <p>Chemistry</p>
+                                        </div>
+                                        <div class="card-back-A-Level">
+                                            <p>A</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </th>
+
+                        </tr>
+                        <tr style="font-size: 1.5rem; color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
+                            <th> 
+                                <div class="card">
+                                    <div class="card-front-grade">
+                                        <p>Skills</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <th  class="box2"><img src="java2.png" class="image-box-c"></th>
+                            <th  class="box2"><img src="html1.png" class="image-box-c" style="padding-top: 1.5rem;"></th>
+                            <th  class="box2" ><img src="python.png" class="image-box-python-c"></th>
+                            
+                        </tr>
+                        <tr style="font-size: 1.5rem; color: rgb(25, 41, 70); font-family: 'Abel', sans-serif;">
+                            <th class="invisible-box-grade"></th>
+                            <th  class="box2"><img src="css1.png" class="image-box-c"></th>
+                            <th  class="box2" ><img src="php.png" class="image-box-php-c"></th>
+                            <th  class="box2"><img src="sql.png" class="image-box-c"></th>
                         </tr>
                     </table>
                 </div>
@@ -129,22 +383,22 @@
                 <h7  class="item51">Projects</h7>
                 <div  class="project_list">
                     <div class="project_item">
-                        <h10 class="project_header">Portfolio Website</h10>
-                        <p class="project_text">This is my portfolio website to showcase my achievements and briefly describe myself and what I do when working on projects in the form of a blog. I used HTML, CSS, PHP and mySQL to build this website.</p>
+                        <h10 class="project_header">Digital Portfolio</h10>
+                        <p class="project_text">Explore my portfolio—a platform displaying achievements and offering insights into my professional identity and project involvement via a blog format. Meticulously developed with HTML, CSS, PHP, and mySQL.</p>
                         <div class="project_buttons" >
-                            <a class="Code" href='https://github.com/vineji/Portfolio-Website.git' target="_blank">Code</a>
+                            <a class="Code" href='******************' target="_blank">Code</a>
                         </div>
                     </div>
                     <div class="project_item">
-                        <h11 class="project_header">Football Quiz</h11>
-                        <p class="project_text">Test your football knowledge and your memorisation skills in this unique quiz. I have created this project with Java Swing code and implemented techniques such as polymorphism, abstraction and encapsulation from object orientated programming.</p>
-                        <div class="project_buttons">
-                            <a class="Code" href='https://github.com/vineji/Football-Quiz.git' target="_blank">Code</a>
-                            <a class="Demo" >Demo</a>
+                        <h11 class="project_header" >Football Trivia Challenge</h11>
+                        <p class="project_text">Test your football IQ with a unique trivia challenge. This Java Swing project showcases my adeptness in object-oriented programming, highlighting concepts like polymorphism, abstraction, and encapsulation.</p>
+                        <div class="project_buttons" style="margin-top: 0rem;">
+                            <a class="Code" href='************' target="_blank">Code</a>
+                            <a class="Demo" href='************' target="_blank">Demo</a>
                         </div>
                     </div>
                     <div class="project_item">
-                        <h12 class="project_header">Python Project</h12>
+                        <h12 class="project_header">Weather Notes</h12>
                         <img class="work" src=work.png>
                         <p></p>
                         <a></a>
@@ -152,26 +406,19 @@
                 </div>
             </div>
             <div class="item7"  style="padding-top: 10cm;">
-                <h6 class="item71" style="padding-top: 3cm;" id="contact">Contact</h6>
+                <h6 class="item71" style="padding-top: 3cm;" id="contact">Contact Me</h6>
                 <div style="padding-top: 4rem;"></div>
-                <ul class="item72" style="padding-top: 4rem;">
-                    <li>
-                        <p class="item73">Name</p>
-                        <div style="display: flex; flex-direction: row; gap: 1rem;">
-                            <p style="padding-top: 5px;" class="item74"></p>
-                        </div>    
-                    </li>
-                    <li>
-                        <p class="item73">Number</p>
-                        <p style="padding-top: 5px;" class="item74"></p>
-                    </li>
-                    <li style="padding-top: 0.8cm;">
-                        <p class="item73">Email</p>
-                        <p style="padding-top: 5px;" class="item74">vineji7@outlook.com</p>
-                    </li>
-                </ul>
+                <form action="*************************" method="POST">
+                    <div class="contact_form">
+                        <input  type="text" class="contact_name" placeholder="To: vineji7@outlook.com" readonly>
+                        <input  name="name" class="contact_name" placeholder="Name:" autocomplete="off">
+                        <input type="email" name="email" class="contact_name" placeholder="Email:" autocomplete="off">
+                        <textarea style="min-height:15rem;" type="text" name="message" class="contact_message" placeholder="Message:" autocomplete="off"></textarea>
+                        <button type="submit" class="contact_button">Send</button >
+                    </div>
+                </form>
             </div>
-            <footer style="margin-top: 12rem;" >
+            <footer style="margin-top: 50rem;" >
                 <p class="footer_p">©2023 - Sathananthan Vineji </p>
             </footer>
 
