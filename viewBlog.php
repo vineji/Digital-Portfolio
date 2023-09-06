@@ -14,16 +14,16 @@
     <body class="blogContainer">
         <nav style="padding-top: 0.3cm;" class="item1">
             <ul>
-                <li style="padding-right: 30px; padding-top: 0.3cm;" class = "item12"><a href="session.php">Add post</a></li>
-                <li style="padding-right: 30px; padding-top: 0.3cm;" class = "item12"><a href="index.php">Home</a></li>
+                <li style="margin-right: 30px; padding-top: 0.3cm;" class = "item12_view"><a href="********">Add post</a></li>
+                <li style="margin-right: 30px; padding-top: 0.3cm;" class = "item12_view"><a href="********">Home</a></li>
             </ul>
         </nav>
-        <div class="login0" style="padding-bottom: 10rem;" id="top">
+        <div class="login0" id="top">
           <h1 class="login1" id="addBlog">My blog</h1>
-          <form method="post" name="month" style="display: flex; flex-direction: row; gap: 1rem;">
+          <form  method="post" name="month" style="display: flex; flex-direction: row; gap: 1rem;">
             <div class="month">
-                <label for="month">Blogs from :</label>
-                <select name="month">
+                <label class="month_label" for="month">Blogs from :</label>
+                <select name="month" class="month_label">
                     <option value="" <?php if($_POST['month']==''){echo 'selected';} ?>>all months</option>
                     <option value="01" <?php if($_POST['month']=='01'){echo 'selected';} ?>>January</option>
                     <option value="02" <?php if($_POST['month']=='02'){echo 'selected';} ?>>February</option>
@@ -44,10 +44,10 @@
           <div class="viewBlog1">  
                 <?php
                 // Connect to the database
-                $servername = "*********";
-                $username = "****";
-                $password = "****";
-                $dbname = "*****";
+                $servername = "********";
+                $username = "******";
+                $password = ""******";;
+                $dbname = ""******";;
 
                 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -99,12 +99,12 @@
 
                 if ($date_result->num_rows == 0){
                     echo "<div class='viewBlogs' id='viewBlogs'>";
-                    echo "<h>" ."No blog posts " . "</h>";
+                    echo "<h class='viewBlogs_h'>" ."No blog posts " . "</h>";
                     echo "</div>";
 
                 } 
                 else{
-                    echo "<div class='viewBlogs' >";
+                    
                     foreach ($date_array as $date){
                         foreach ($time_array as $time){
                             $sql = "SELECT * FROM BlogPosts WHERE date ='$date' AND time ='$time' ";
@@ -112,17 +112,15 @@
                             if ($result->num_rows > 0) {
                                 // Output data of each row
                                 while($row = $result->fetch_assoc()) {
-                                    echo "<div style='padding-top: 1rem;'>";
-                                    echo "<h>" . $row["title"]. "</h>";
-                                    echo "<article style='width: 71rem;'>" . $row["content"]. "</article>";
-                                    echo "<p>" ."Posted at " . $row["time"]. " on " . $row["date"]. "</p>";
-                                    echo "<hr style='border-color: black;'>";
+                                    echo "<div class='viewBlogs' >";
+                                    echo "<h class='viewBlogs_h'>" . $row["title"]. "</h>";
+                                    echo "<article class='viewBlogs_article' style='width: 71rem;'>" . $row["content"]. "</article>";
+                                    echo "<p class='viewBlogs_p'>" ."Posted at " . $row["time"]. " on " . $row["date"]. "</p>";
                                     echo "</div>";
                                 }
                             } 
                         } 
                     }
-                    echo "</div>";
                     echo "<div style='padding-top: 1rem;'></div>";
                     echo "<a class='top' href='#top'>  " . "back to top" ." <div style= 'color: aqua;' >  "."&uarr;"."  </div></a>";
 
